@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_validation</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containeer">
+        <div class="header">
+            <h2>APPLICATION FORM FOR CASTE CERTIFICATE</h2>
+        </div>
+        <form action="/post" class="form" id="form" method="post">
+            <div class="field">
+                <label>APPLICANTNAME</label>
+                <input type="text" placeholder="abc" id="Uname" name="Uname">
+                <span class="material-icons success">check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>FATHERNAME</label>
+                <input type="text" placeholder="fathername" id="Fname" name="Fname">
+                <span class="material-icons success">check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>VILLAGE</label>
+                <input type="text" placeholder="village" id="vill" name="vill">
+                <span class="material-icons success">check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>MANDEL</label>
+                <input type="text" placeholder="mandelname" id="man" name="man">
+                <span class="material-icons success">check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>DISTRICT</label>
+                <input type="text" placeholder="districtname" id="dis" name="dis">
+                <span class="material-icons success">check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>CASTE</label>
+                <input type="text" placeholder="castename" id="caste" name="caste">
+                <span class="material-icons success">check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <label>DATEOFBIRTH</label>
+                <input type="date" placeholder="dd-mm-yyyy" id="dob" name="dob">
+                <span class="material-icons success">check_circle</span>
+                <span class="material-icons error">error</span>
+                <small>Error message</small>
+            </div>
+            <div class="field">
+                <input type="checkbox" id="tc" class="terms">
+                <label>I agree to terms and conditions</label>
+                <small>Error message</small>
+            </div>
+            <input type="submit" class="button">
+        </form>
+    </div>
+    <script src="C:\Users\manas\OneDrive\Documents\val.js"></script>  
+    <script src="server.js"></script>  
+</body>
+</html>
