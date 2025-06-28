@@ -149,15 +149,15 @@
             <div class="header2"><img src="C:\Users\manas\Downloads\logo.webp" alt="photo" width=150px height=150px></div>
             <div class="header3"><h1>GOVERNMENT OF TELANGANA<br>WELFARE DEPARTMENT</h1></div>
             </div>
-            <div class="M1"><marquee behaviour="" direction="right">Generating online welfare and identity certificates</marquee></div>
+            <div class="M1"><marquee behaviour="" direction="right">Online Application for welfare and identity certificates</marquee></div>
             <div class="M2"><h2><button onclick="openNewWindow1()">Provided certificates</button></h2></div>
                 <div id="data"></div>
-            <div class="M3"><h2 >Welfare certificates</h2></div>
-            <div class="M4"><h2>Identity certificates</h2></div>
-            <div class="M5"><h2>Documents required for welfare certificates</h2></div>
-            <div class="M6"><h2>Documents required for Identity certificates</h2></div>
+            <div class="M3"><h2><button onclick="openNewWindow3()">Welfare certificates</button></h2></div>
+            <div class="M4"><h2><button onclick="openNewWindow4()">Identity certificates</button></h2></div>
+            <div class="M5"><h2><button onclick="openNewWindow5()">Documents required for welfare certificates</button></h2></div>
+            <div class="M6"><h2><button onclick="openNewWindow6()">Documents required for Identity certificates</button></h2></div>
             <div class="M7" id="child2"><button onclick="openNewWindow()"><h3>CLICK HERE TO APPLY WELFARE CERTIFICATES</button></h3></div>
-            <div class="M8" id="child1"><h2>Click here to apply identity certificates</h2></div>
+            <div class="M8" id="child1"><h2><button onclick="openNewWindow2()"><h3>CLICK HERE TO APPLY IDENTITY CERTIFICATE</button></h3></div>
             <div class="containeer2">
             <div class="h1"><img src="C:\Users\manas\Downloads\Telangana.png" alt="photo" width=400px height=400px></div>
             <div class="h2"><img src="C:\Users\manas\Downloads\WhatsApp Image 2025-04-03 at 11.37.14 PM.jpeg" alt="photo" width=300px height=300px></div>
@@ -167,10 +167,25 @@
         </div>
         <script>
             function openNewWindow(){
-                window.open("form1.html","_self")
+                window.open("options.html","_self")
             }
             function openNewWindow1(){
-                window.open("PC.html","_self")
+                window.open("provided.html","_self")
+            }
+            function openNewWindow2(){
+                window.open("ic.html","_self")
+            }
+            function openNewWindow3(){
+                window.open("welfare.html","_self")
+            }
+            function openNewWindow4(){
+                window.open("identity.html","_self")
+            }
+            function openNewWindow5(){
+                window.open("DW.html","_self")
+            }
+            function openNewWindow6(){
+                window.open("DI.html","_self")
             }
             /*let btn=document.getElementById("special")
             let dataele=document.getElementById("data")
